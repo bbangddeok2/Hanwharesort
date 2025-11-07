@@ -1,0 +1,61 @@
+section {
+  padding-bottom: 80px;
+}
+
+.section_2,
+.section_3,
+.section_5 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.section_2,
+.section_3,
+.section_4,
+.section_5 {
+  background-color: #fff;
+  position: relative;
+  top: 72.5vh;
+  z-index: 997;
+}
+
+/* .section_2,
+    .point,
+    .section_3,
+    .section_4,
+    .section_5,
+    footer{
+        position: relative;
+        top: 1080px;
+        z-index: 999;
+        background-color: #0a0a0a;
+    } */
+
+/* 이런방법도 있지만 선생님께서는 반응형부터 관리 적인 측면에서
+    밑에 섹션들을 한번에 마진 패딩 등을 통해서 내리면 포지션 안써도 해결 가능
+    하다 하셨음.  */
+
+/* @media screen and (max-width:767px) {
+        section{
+            padding-bottom: 80px;
+        }
+        .section_2,
+        .point,
+        .section_3,
+        .section_4,
+        .section_5,
+        footer{
+            position: relative;
+            top: 500px;
+            z-index: 999;
+            background-color: #0a0a0a;
+        }
+
+    } */
+
+.section_title h2 {
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
