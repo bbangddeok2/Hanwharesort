@@ -35,11 +35,17 @@ $(document).ready(function () {
       modifier: 1,
       slideShadows: true,
     },
-    spaceBetween: 80,
+    spaceBetween: 100,
     loop: true,
     breakpoints: {
       767: {
-        spaceBetween: 300,
+        spaceBetween: 100,
+      },
+      450: {
+        spaceBetween: 100,
+      },
+      350: {
+        spaceBetween: 80,
       },
     },
   });
