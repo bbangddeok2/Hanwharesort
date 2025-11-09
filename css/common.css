@@ -4,7 +4,8 @@ section {
 
 .section_2,
 .section_3,
-.section_5 {
+.section_5,
+.section_6 {
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -12,7 +13,8 @@ section {
 .section_2,
 .section_3,
 .section_4,
-.section_5 {
+.section_5,
+.section_6 {
   background-color: #fff;
   position: relative;
   top: 72.5vh;
@@ -58,4 +60,5 @@ section {
   line-height: 40px;
   font-weight: 700;
   margin-bottom: 30px;
+  letter-spacing: -1px;
 }
