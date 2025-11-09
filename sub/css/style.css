@@ -14,12 +14,10 @@
   transform: translateX(-50%);
   max-width: 767px;
   z-index: 2;
-}
-.con_wrap {
-  position: absolute;
-  top: 61.8%;
-  left: 16px;
-  width: calc(100% - 32px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 40px 16px;
 }
 
 .txt_wrap {

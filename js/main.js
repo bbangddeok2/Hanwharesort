@@ -33,18 +33,19 @@ $(document).ready(function () {
     },
     spaceBetween: 80,
     loop: true,
+    breakpoints: {
+      767: {
+        spaceBetween: 300,
+      },
+    },
   });
 
   $(".reserve_btn").on("click", function () {
-    // 모달이 네비 위에 딱 붙도록
     $(".reserve_modal").css("bottom", navHeight + "px");
   });
-
   $(".close_modal").on("click", function () {
-    // 다시 숨기기
     $(".reserve_modal").css("bottom", -modalHeight + "px");
   });
-
   $(".heart").on("click", function () {
     $(this).toggleClass("active");
   });

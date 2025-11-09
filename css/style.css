@@ -581,7 +581,6 @@ header {
 
 /* 닫기 버튼 */
 .close_modal {
-  align-self: flex-end;
   background: none;
   border: none;
   font-size: 18px;
