@@ -18,6 +18,10 @@ $(document).ready(function () {
       $(".installation_wrap").eq(clicked).addClass("installation_wrap_active");
     });
 
+  $(".heart").on("click", function () {
+    $(this).toggleClass("active");
+  });
+
   var swiper = new Swiper(".mySwiper", {
     effect: "coverflow",
     grabCursor: true,
