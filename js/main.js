@@ -40,13 +40,16 @@ $(document).ready(function () {
     },
   });
 
-  $(".reserve_btn").on("click", function () {
-    $(".reserve_modal").css("bottom", navHeight + "px");
+  $(document).ready(function () {
+    $(".reserve_btn").click(function () {
+      $(".reserve_modal").css("bottom", "0");
+    });
+
+    $(".modal_close").click(function () {
+      $(".reserve_modal").css("bottom", "-450px");
+    });
   });
-  $(".close_modal").on("click", function () {
-    $(".reserve_modal").css("bottom", -modalHeight + "px");
-  });
-  $(".heart").on("click", function () {
+  $(".filter_btn").on("click", function () {
     $(this).toggleClass("active");
   });
 });
