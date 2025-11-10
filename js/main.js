@@ -50,15 +50,14 @@ $(document).ready(function () {
   });
 
   $(document).ready(function () {
-    $(".reserve_btn").click(function () {
-      $(".reserve_modal").css("bottom", "0");
+    $(document).on("click", ".reserve_btn", function () {
+      $(".reserve_modal").toggleClass("active");
     });
-
     $(".modal_close").click(function () {
-      $(".reserve_modal").css("bottom", "-480px");
+      $(".reserve_modal").removeClass("active");
     });
-  });
-  $(".filter_btn").on("click", function () {
-    $(this).toggleClass("active");
+    $(".filter_btn").on("click", function () {
+      $(this).toggleClass("active");
+    });
   });
 });

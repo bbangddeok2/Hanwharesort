@@ -573,6 +573,9 @@ header {
   transition: 0.3s ease;
   z-index: 998;
 }
+.reserve_modal.active {
+  bottom: 0;
+}
 
 .modal_close {
   text-align: center;
@@ -627,7 +630,7 @@ header {
   font-weight: 700;
 }
 .reserve_search input {
-  all: unset;
+  border: none;
 }
 
 .filter_btn {
