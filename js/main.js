@@ -49,15 +49,13 @@ $(document).ready(function () {
     },
   });
 
-  $(document).ready(function () {
-    $(document).on("click", ".reserve_btn", function () {
-      $(".reserve_modal").toggleClass("active");
-    });
-    $(".modal_close").click(function () {
-      $(".reserve_modal").removeClass("active");
-    });
-    $(".filter_btn").on("click", function () {
-      $(this).toggleClass("active");
-    });
+  $(document).on("click", ".reserve_btn", function () {
+    $(".reserve_modal").toggleClass("active");
+  });
+  $(".modal_close").click(function () {
+    $(".reserve_modal").removeClass("active");
+  });
+  $(".filter_btn").on("click", function () {
+    $(this).toggleClass("active");
   });
 });
