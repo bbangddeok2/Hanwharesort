@@ -55,7 +55,7 @@ $(document).ready(function () {
     });
 
     $(".modal_close").click(function () {
-      $(".reserve_modal").css("bottom", "-450px");
+      $(".reserve_modal").css("bottom", "-480px");
     });
   });
   $(".filter_btn").on("click", function () {
