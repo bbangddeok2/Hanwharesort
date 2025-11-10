@@ -64,6 +64,7 @@ header {
 
 .search .icon {
   cursor: pointer;
+  margin-left: 5px;
 }
 
 .search p {
@@ -635,7 +636,7 @@ header {
 }
 input {
   all: unset;
-  width: 100%;
+  width: 95%;
 }
 
 .filter_btn {
