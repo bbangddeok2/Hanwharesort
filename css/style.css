@@ -629,6 +629,10 @@ header {
 .reserve_people span {
   font-weight: 700;
 }
+
+.reserve_search {
+  display: flex;
+}
 .reserve_search input {
   all: unset;
   width: 100%;
