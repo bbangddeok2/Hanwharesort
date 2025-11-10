@@ -630,7 +630,8 @@ header {
   font-weight: 700;
 }
 .reserve_search input {
-  border: none;
+  all: unset;
+  width: 100%;
 }
 
 .filter_btn {
