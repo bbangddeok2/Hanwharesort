@@ -58,13 +58,12 @@ header {
   width: 100%;
   padding: 0 10px 15px 10px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
 }
 
-.search a {
-  display: flex;
-  justify-content: space-between;
-  color: #1d1d1d;
-  width: 100%;
+.search .icon {
+  cursor: pointer;
 }
 
 .search p {
@@ -312,7 +311,7 @@ header {
 /* section_3 end */
 
 .section_4 {
-  padding: 60px 0 60px 0;
+  padding: 80px 0;
   width: 100%;
   background-color: #f1f1f1;
   position: relative;
@@ -632,8 +631,9 @@ header {
 
 .reserve_search {
   display: flex;
+  align-items: center;
 }
-.reserve_search input {
+input {
   all: unset;
   width: 100%;
 }
