@@ -48,10 +48,23 @@ $(document).ready(function () {
       },
     },
   });
-
-  $(document).on("click", ".reserve_btn", function () {
-    $(".reserve_modal").toggleClass("active");
+  var num = 0;
+  $(".reserve_btn").click(function () {
+    if (num === 0) {
+      $(".reserve_modal").addClass("active");
+      $("body").css({
+        "overflow-y": "hidden",
+      });
+      num++;
+    } else if (num === 1) {
+      $(".reserve_modal").removeClass("active");
+      $("body").css({
+        "overflow-y": "unset",
+      });
+      num--;
+    }
   });
+
   $(".modal_close").click(function () {
     $(".reserve_modal").removeClass("active");
   });
